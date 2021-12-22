@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <form class="toogle-field">
+            <label for="first-num">введіть перше значення</label>
+            <input class="number-field" id="firstNum" name="first-num" type="number" placeholder="number 1">
+            <label for="operation">оберіть дію</label>
+            <select class="operation" id="operation" name="operation">
+                <option value="plus" selected>+</option>
+                <option value="minus">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+            <label for="first-num">введіть друге значення</label>
+            <input class="number-field" id="secondNum" type="number" placeholder="number 2">
+            <label for="calc-btn">отримайте результат</label>
+            <button class="calc" id="calcBtn" name="calc-btn" type="submit">=</button>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
